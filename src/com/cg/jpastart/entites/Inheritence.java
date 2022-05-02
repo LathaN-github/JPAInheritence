@@ -12,14 +12,14 @@ public static void main(String[] args) {
 		
 		//create one employee
 		Employee employee = new Employee();
-		employee.setName("latha");
-		employee.setSalary(100000);
+		employee.setName("charvi");
+		employee.setSalary(5000);
 		em.persist(employee);
 		
 		//create one manager
 		Manager manager = new Manager();
-		manager.setName("yogi");
-		manager.setSalary(78000);
+		manager.setName("srinidhi");
+		manager.setSalary(8000);
 		manager.setDepartmentName("Sales");
 		em.persist(manager);
 		

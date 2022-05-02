@@ -1,5 +1,4 @@
 package com.cg.jpastart.entites;
-
 import javax.persistence.Entity;
 import javax.persistence.Table;
 
